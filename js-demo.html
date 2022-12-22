@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- External javascript -->
+  <script src="./assets/scripts/main.js"></script>
+  <script>
+    /* */
+    function handleClickMe(event) {
+      console.log(event);
+      event.target.innerText = 'Clicked';
+      // FIXME: disable the button
+      event.target.disabled = true;
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Js Demo</h1>
+  <h2>Handling Interactions using Js | Demo</h2>
+
+  <button onclick="handleClickMe(event)">Click Me</button>
+  <button onmouseover="handleMouseover(event)" onmouseleave="handleMouseleave(event)">Mouseover here pls</button>
+  <hr>
+
+  <div id="myDiv">
+    Welcome to DOM Manipulation
+  </div>
+
+  <button onclick="handleChangebgcolor()"> Change the bg color</button>
+  <!-- TODO: Change the text color of div to white -->
+  <button onclick="handleChangetextcolor()"> Change the text color</button>
+  <!-- TODO: Make the text Bold -->
+  <button onclick="handleTextbold()"> Make text bold</button>
+  <hr>
+
+  <!-- TODO: Time and Date -->
+  <button onclick="handleDisplayTime()">What's the time now ?</button>
+  <div>
+    <p>Time is:</p>
+    <p id="timeWrapper"></p>
+  </div>
+
+  <hr>
+  <!-- TODO: Random Number Generation  -->
+  <button onclick="handleRandomNumber()">Generate Random Number</button>
+  <div>
+    <p>Random Number Generated is</p>
+    <p id="randomNumber"></p>
+  </div>
+
+  <hr>
+  <input type="text" placeholder="Enter Skill" id="skillInput">
+  <button onclick="handleSkillList()">Add New Skill</button>
+  <ul id="skills">
+    <!-- TODO: Learn about creating li and appending it within ul element using js -->
+  </ul>
+</body>
+
+</html>
