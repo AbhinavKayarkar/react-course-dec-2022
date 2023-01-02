@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Welcome to Youtube V1 Home Page.The best video platform.Browse all videos for free">
+  <meta name="keywords" content="movie video,live streaming,gaming,shorts,football videos">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Will not be visible in browser's view point -->
+  <title>
+    Welcome to YouTube V1
+  </title>
+
+  <!-- Linking Normalize External Styles -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Linking Custom External Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+  <!-- Internal Style -->
+  <!-- <style>
+    /*Load external styles first .Here you can override external styles*/
+    /* Element Selector line 82 */
+    h2 {
+      /*Style defn */
+      color: bisque;
+      background-color: blueviolet;
+      font-size: 20px;
+    }
+  </style> -->
+</head>
+
+<body>
+  <!-- Will  be visible in broswer's view point -->
+  <header>
+    <div class="header-wrapper">
+      <aside class="collapsible-menu">
+        <button type="button" aria-label="hamburger-icon"><i class="fa-solid fa-bars"></i></button>
+        <!--<nav id="primaryNav">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/">Shorts</a></li>
+            <li><a href="/">Subscriptions</a></li>
+            <li><a href="/">Library</a></li>
+            <li><a href="/">History</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact-us.html">Contact</a></li>
+          </ul>
+        </nav> -->
+      </aside>
+      <div class="main-header">
+        <a href="./index.html" class="logo-link">
+          <img src="./assets/images/youtube-logo.png" alt="Youtube Logo" height="24" width="100"></a>
+        <div class="controls-bar">
+          <input class="search-input" type="search" placeholder="Search" aria-label="Enter Search">
+          <button type="button" aria-label="Search" class="search-btn"><i
+              class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+          <button aria-label="microphone"><i class="fa-solid fa-microphone"></i></button>
+          <button aria-label="fa-ellipsis-vertical"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <button>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <span> Sign in</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- only one main tag you should in a page -->
+    <div id="suggestedTopics" class="text-center">
+      <ul>
+        <li><a href="/">All</a></li>
+        <li><a href="/">News</a></li>
+        <li><a href="/">Music</a></li>
+        <li><a href="/">Webseries</a></li>
+        <li><a href="/">Cricket</a></li>
+        <li><a href="/">Football</a></li>
+        <li><a href="/">FIFA Updates</a></li>
+        <li><a href="/">Best Goals</a></li>
+        <li><a href="/">Movies</a></li>
+        <li><a href="/">Latest News</a></li>
+        <li><a href="/">Recession</a></li>
+        <li><a href="/">Cars</a></li>
+        <li><a href="/">RC Cars</a></li>
+        <li><a href="/">Electric cars</a></li>
+        <li><a href="/">Science</a></li>
+        <li><a href="/">Courses</a></li>
+        <li><a href="/">Bike</a></li>
+        <li><a href="/">Learning</a></li>
+        <li><a href="/">Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="./assets/images/youtube-music-image.png" alt="Listen to All Latest Releases" width="250" height="150">
+      </div>
+      <section class="hero-content">
+        <!-- Inline Styles -->
+        <h1>Music Released this Week</h1>
+        <p>Discover the freshest tracks and music videos from your favourite artists every Friday on YouTube Music's
+          RELEASED playlist.
+        </p>
+        <button type="button" class="listen-now-btn">Listen Now</button>
+      </section>
+    </div>
+
+    <section class="recommended-videos">
+      <h2>Recommended Videos</h2>
+
+      <div class="video-container">
+        <!-- Video box #1 starts from here -->
+        <div class="video-box">
+          <div class="video-box-thumbnail">
+            <img src="./assets/images/france-vs-poland-yt.png" alt="France-vs-Poland.png" width="230px">
+          </div>
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">France vs Poland - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 1</a>
+              </h4>
+              <span>3.5M views ||</span>
+              <span>18 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #1 ends here -->
+
+        <!-- Video box #2 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/japan-vs-croatia-yt.png" alt="Japan-vs-Croatia.png" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Japan vs Croatia - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 2</a>
+              </h4>
+              <span>2.8M views ||</span>
+              <span>3 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #2 ends here -->
+
+        <!-- Video box #3 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/brazil-vs-south-korea-yt.png" alt="Brazil-vs-South-Korea.png" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Brazil vs South korea - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 3</a>
+              </h4>
+              <span>5.8M views ||</span>
+              <span>5 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #3 ends here -->
+
+        <!-- Video box #4 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/eng-vs-senegal.png" alt="England-vs-Senegal.png" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">England vs Senegal - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 4</a>
+              </h4>
+              <span>4.9M views ||</span>
+              <span>2 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #4 ends here -->
+
+        <!-- Video box #5 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/PM-flag-image.png" alt="PM visit" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-5.png" alt="Channel No 5">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">PM Modi visit to Nagpur</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 5</a>
+              </h4>
+              <span>4.7M views ||</span>
+              <span>1 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #5 ends here -->
+
+        <!-- Video box #6 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/tom-and-jerry.png" alt="tom-and-jerry" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 5">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Tom and Jerry comedy show</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 6</a>
+              </h4>
+              <span>3.7M views ||</span>
+              <span>6 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #6 ends here -->
+
+        <!-- Video box #7 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/hp-vs-lambo.png" alt="hp-vs-lambo" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 7">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Hydraulic Press Vs Lamborghini</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 7</a>
+              </h4>
+              <span>6.7M views ||</span>
+              <span>1 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #7 ends here -->
+
+        <!-- Video box #8 starts from here -->
+        <div class="video-box">
+          <img src="./assets/images/ms-ad.png" alt="hp-vs-lambo" width="230px">
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 5">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Microsoft office 365 - 2022</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 8</a>
+              </h4>
+              <span>5.1M views ||</span>
+              <span>3 days ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Video box #8 ends here -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <nav id="secondaryNav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright &copy; 2022 || Abhinav Kayarkar || all rights reserved </p>
+  </footer>
+</body>
+
+</html>
