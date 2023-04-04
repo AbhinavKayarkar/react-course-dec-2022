@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Youtube V1 watch Page.Watch all types of videos">
+  <meta name="keywords" content="movie video,live streaming,gaming,shorts,football videos">
+  <title>Watch Now</title>
+
+  <!-- Linking Normalize External Styles -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Linking Custom External Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<!-- This part will be visible over browser -->
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <aside class="collapsible-menu">
+        <button type="button"><i class="fa-solid fa-bars"></i></button>
+        <!--<nav id="primaryNav">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/">Shorts</a></li>
+            <li><a href="/">Subscriptions</a></li>
+            <li><a href="/">Library</a></li>
+            <li><a href="/">History</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact-us.html">Contact</a></li>
+          </ul>
+        </nav> -->
+      </aside>
+      <div class="main-header">
+        <a href="./index.html" class="logo-link">
+          <img src="./assets/images/youtube-logo.png" alt="Youtube Logo" height="24" width="100"></a>
+        <div class="controls-bar">
+          <input class="search-input" type="search" placeholder="Search">
+          <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-microphone"></i></button>
+          <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <button>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <span> Sign in</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="watch-now-container">
+      <div class="clicked-video">
+        <h3>Currently watching Video</h3>
+        <iframe width="500" height="305" src="https://www.youtube.com/embed/Cq3O_QpPl30" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <div class="name-box">
+          <div class="name-box-image">
+            <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+          </div>
+          <div class="name-box-content">
+            <h3>
+              <a href="/watch.html">France vs Poland - Highlights</a>
+            </h3>
+            <h4>
+              <a href="/">Channel No. 1</a>
+            </h4>
+            <span>3.5M views ||</span>
+            <span>18 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <!--<aside id="relatedVideos">-->
+      <div class="related-video">
+        <h3>Related Videos</h3>
+
+        <div class="related-video-box">
+          <div class="related-video-content image">
+            <img src="./assets/images/france-vs-poland-yt.png" alt="France Vs Poland" width="150" height="100">
+          </div>
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">France vs Poland - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 1</a>
+              </h4>
+              <span>3.5M views ||</span>
+              <span>18 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="related-video-box">
+          <div class="related-video-content image">
+            <img src="./assets/images/japan-vs-croatia-yt.png" alt="Japan Vs Croatia" width="150" height="100">
+          </div>
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Japan vs Croatia - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 2</a>
+              </h4>
+              <span>2.8M views ||</span>
+              <span>3 days ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="related-video-box">
+          <div class="related-video-content image">
+            <img src="./assets/images/brazil-vs-south-korea-yt.png" alt="Brazil Vs South korea" width="150"
+              height="100">
+          </div>
+          <div class="name-box">
+            <div class="name-box-image">
+              <img src="./assets/images/channel-profile-1.png" alt="Channel No 1">
+            </div>
+            <div class="name-box-content">
+              <h3>
+                <a href="/watch.html">Brazil vs South korea - Highlights</a>
+              </h3>
+              <h4>
+                <a href="/">Channel No. 3</a>
+              </h4>
+              <span>5.8M views ||</span>
+              <span>5 days ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="related-video-box">
+          <div class="related-video-content image">
+            <img src="./assets/images/PM-flag-image.png" alt="PM visit" width="150" height="100">
+          </div>
+            <div class="name-box">
+              <div class="name-box-image">
+                <img src="./assets/images/channel-profile-5.png" alt="Channel No 5">
+              </div>
+              <div class="name-box-content">
+                <h3>
+                  <a href="/watch.html">PM Modi visit to Nagpur</a>
+                </h3>
+                <h4>
+                  <a href="/">Channel No. 5</a>
+                </h4>
+                <span>4.7M views ||</span>
+                <span>1 days ago</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- </aside>-->
+  </main>
+
+  <footer class="text-center">
+    <nav id="secondaryNav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright &copy; 2022 || Abhinav Kayarkar || all rights reserved </p>
+  </footer>
+</body>
+
+</html>

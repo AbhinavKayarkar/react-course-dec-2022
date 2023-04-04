@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Youtube V1 contact Page.Get in touch with us">
+  <meta name="keywords" content="movie video,live streaming,gaming,shorts,football videos">
+  <title>Contact Us</title>
+
+  <!-- Linking Normalize External Styles -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Linking Custom External Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<!-- This part will be visible over browser -->
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <aside class="collapsible-menu">
+        <button type="button"><i class="fa-solid fa-bars"></i></button>
+        <!--<nav id="primaryNav">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/">Shorts</a></li>
+            <li><a href="/">Subscriptions</a></li>
+            <li><a href="/">Library</a></li>
+            <li><a href="/">History</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact-us.html">Contact</a></li>
+          </ul>
+        </nav> -->
+      </aside>
+      <div class="main-header">
+        <a href="./index.html" class="logo-link">
+          <img src="./assets/images/youtube-logo.png" alt="Youtube Logo" height="24" width="100"></a>
+        <div class="controls-bar">
+          <input class="search-input" type="search" placeholder="Search">
+          <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-microphone"></i></button>
+          <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          <button>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <span> Sign in</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="contact-us-main">
+    <h1>Contact Us</h1>
+
+    <div class="contact-us-container">
+      <div class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d242035.03292675066!2d73.734068!3d18.583171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed1f51fc88fd8550!2sCognizant%20ISH%20office!5e0!3m2!1sen!2sin!4v1671007403157!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="address">
+        <h2>Reach us here</h2>
+        <address>
+          <h4 style="color:yellow;">Location</h4>
+          Cognizant Technology Solution <br>
+          Plot # 26, Ish Info tech,<br>
+          Rajiv Gandhi Infotech Park, <br>
+          MIDC, Phase I, Hinjawadi, Pune,<br>
+          Maharashtra, 411057 <br>
+          <h4 style="color:yellow;">Call us</h4>
+          <p>1800 208 6999</p>
+          <h4 style="color:yellow;">Email Id</h4>
+          <p><a href="mailto:contact@cognizant.com">contact@cognizant.com</a></p>
+        </address>
+      </div>
+    </div>
+
+    <section>
+      <h2>Contact us by filling the below form :</h2>
+      <!-- Todo:2  7/12/2022 1st-half-->
+      <form class="contact-form">
+        <div class="field-group">
+          <label for="nameInput">Enter Name:</label>
+          <input id="nameInput" name="fullnmae" type="text" placeholder="Enter the Name" required>
+        </div>
+        <div class="field-group">
+          <label for="emailInput">Enter E-mail:</label>
+          <input id="emailInput" name="email" type="email" placeholder="Enter the Email" required>
+        </div>
+        <div class="field-group">
+          <label for="phoneInput">Enter Phone:</label>
+          <input id="phoneInput" name="phone" type="tel" placeholder="Enter the Phone No." required>
+        </div>
+        <div class="field-group">
+          <label for="queryInput" class="query-label">Enter Query:</label>
+          <textarea id="queryInput" name="queryInput" rows="2" cols="50" placeholder="Enter the Query"
+            required></textarea>
+        </div>
+        <div class="field-group">
+          <button type="submit">Send Query</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <nav id="secondaryNav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright &copy; 2022 || Abhinav Kayarkar || all rights reserved </p>
+  </footer>
+</body>
+
+</html>
